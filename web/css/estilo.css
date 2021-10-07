@@ -1,0 +1,51 @@
+
+#tdMasc {
+	width: 20px; height:20px;
+	background-image:url(../images/M.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#tdFem {
+	width: 20px; height:20px;
+	background-image:url(../images/F.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.icon {
+	width: 20px; height:20px;
+}
+.icon_large {
+	width: 50px; height:50px;
+}
+
+input[type="text"]:valid.focus {box-shadow: 0 0 1px 1px #e77600;}
+input[type="text"]:valid.nofocus {box-shadow:none;}
+
+input.invalid {box-shadow: 0 0 1px 1px red;}
+
+
+.header .navbar {
+    
+    background-color: #1F3140;
+    border: 1px solid #1F3140;
+    border-radius: 0px 0px 13px 13px;
+      
+}
+
+
+.header .my-navbar .nav-link{
+    color: white;
+    
+}
+.header .my-navbar .nav-link:hover{
+    color: green;
+    
+}
+
+#Logo{
+    	
+    
+}
+

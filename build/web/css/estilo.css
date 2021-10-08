@@ -30,7 +30,9 @@ input.invalid {box-shadow: 0 0 1px 1px red;}
     
     background-color: #1F3140;
     border: 1px solid #1F3140;
-    border-radius: 0px 0px 13px 13px;
+    -webkit-border-radius: 0px 0px 13px 13px;
+   
+
       
 }
 
@@ -44,8 +46,44 @@ input.invalid {box-shadow: 0 0 1px 1px red;}
     
 }
 
-#Logo{
-    	
+
+.msb {
+  width: 15%;
+  background-color: #F5F7F9;
+  position: relative;
+  left: 0;
+  float:left;
+  right: 0;
+  height: 100%;
+  overflow-y: auto;
+  white-space: nowrap;
+  height: 100%;
+  z-index: 1;
+  border-right: 1px solid #ddd;
+}
+#li-bar:hover{
+    color: gray;
+}
+
+.plan-list{
+    
+    position:relative;
+}
+.wrapper-main{
+   height: 100%;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    
     
 }
 
+#homeIMG{
+    max-height: 50px;
+       
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
